@@ -2,6 +2,9 @@
 
 [![N|Solid](https://monnify.com/assets/img/svg/site-logo.svg)](https://monnify.com/)
 
+![Monnify Logo](/site-logo.svg)
+
+
 This repository contains sample codes to how you how to implement an integrate the [Monnify](https://monnify.com/) API in PHP. 
 
 > NOTE:
