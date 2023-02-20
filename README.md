@@ -1,7 +1,5 @@
 # Monnify PHP Sample Codes  ✨
 
-[![N|Solid](https://monnify.com/assets/img/svg/site-logo.svg)](https://monnify.com/)
-
 ![Monnify Logo](/site-logo.svg)
 
 
