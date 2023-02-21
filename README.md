@@ -17,8 +17,7 @@ This repository contains sample codes to how you how to implement an integrate t
 - **Reserved Account** - [sample-codes/reservedaccount/README.md][l3] : How to create reserved account for Monnify. reserved account is a static Bank Account you create for your user and it does not expire unless you delete it.
 - **Bank Account Verification** - [sample-codes/bankverification/README.md][l4] :  
 - **Transfer** - [sample-codes/transfer/README.md][l5] : How to trasfer funds/money to a bank account with PHP on monnify
-- **Card Payment and Tokenisation** - [sample-codes/card/README.md][l6] : 
- 
+  
  
  
  

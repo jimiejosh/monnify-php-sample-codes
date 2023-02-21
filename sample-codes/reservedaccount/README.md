@@ -5,7 +5,7 @@ This repository contains sample codes on how you can create REserved Account for
 > NOTE:
 > *Please note that this is just for demonstration purposes and not production code.*
  
-## Sample PHP Code
+## Requirement
 
 Steps for generating a custoemr reserved account.
 
