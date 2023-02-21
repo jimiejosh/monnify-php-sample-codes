@@ -22,7 +22,7 @@ $raw_request = file_get_contents('php://input');
 
 
 
-// your Secret Key founf in your monnidy dashboard, developer menu
+// your Secret Key found in your monnidy dashboard, developer menu
 $SECRET_KEY = '91MUDL9N6U3BQRXBQ2PJ9M0PW4J22M1Y';
 
 // next, we need to compute and compare hash sent via header as "monnify-signature" is same as hash we generate using our secret key and the request payload. If it is not then the request in rejected
