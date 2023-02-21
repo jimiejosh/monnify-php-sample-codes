@@ -1,4 +1,4 @@
-# Monnify PHP Sample Codes  ✨
+# Authorize / Authenticate  ✨
  
 This repository contains sample codes on how you Authorize / Authenticate to get bearer token with [Monnify](https://monnify.com/) API in PHP. 
 
