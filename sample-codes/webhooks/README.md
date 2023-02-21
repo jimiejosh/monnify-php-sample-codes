@@ -25,7 +25,7 @@ $raw_request = file_get_contents('php://input');
 // your Secret Key found in your monnidy dashboard, developer menu
 $SECRET_KEY = '91MUDL9N6U3BQRXBQ2PJ9M0PW4J22M1Y';
 
-// next, we need to compute and compare hash sent via header as "monnify-signature" is same as hash we generate using our secret key and the request payload. If it is not then the request in rejected
+// next, we need to compute and compare hash sent via header as "monnify-signature". To check if it is same as hash we generate using our secret key and the request payload. If it is not then the request is rejected
 $signature = $_SERVER['HTTP_MONNIFY_SIGNATURE']; // monnify-signature is sent as an header to your webhook endpoint, we get the value and store in this variable
 $computedHash = hash_hmac('sha512', $raw_request, $SECRET_KEY); // hash generated
 if( $computedHash != $signature) die("invalid Hash");
