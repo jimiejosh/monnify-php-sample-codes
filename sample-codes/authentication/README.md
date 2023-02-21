@@ -115,9 +115,9 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 
 [link-author]: https://jimiejosh.com
  
-   [l1]: <https://github.com/jimiejosh/monnify-php-sample-codes/tree/main/sample-codes/authentication/README.md>
-   [l2]: <https://github.com/jimiejosh/monnify-php-sample-codes/tree/main/sample-codes/webhooks/README.md>
-   [l3]: <https://github.com/jimiejosh/monnify-php-sample-codes/tree/main/sample-codes/reservedaccount/README.md>
-   [l4]: <https://github.com/jimiejosh/monnify-php-sample-codes/tree/main/sample-codes/bankverification/README.md>
-   [l5]: <https://github.com/jimiejosh/monnify-php-sample-codes/tree/main/sample-codes/transfer/README.md>
-   [l6]: <https://github.com/jimiejosh/monnify-php-sample-codes/tree/main/sample-codes/card/README.md>
+   [l1]: <https://github.com/jimiejosh/monnify-php-sample-codes/tree/master/sample-codes/authentication/README.md>
+   [l2]: <https://github.com/jimiejosh/monnify-php-sample-codes/tree/master/sample-codes/webhooks/README.md>
+   [l3]: <https://github.com/jimiejosh/monnify-php-sample-codes/tree/master/sample-codes/reservedaccount/README.md>
+   [l4]: <https://github.com/jimiejosh/monnify-php-sample-codes/tree/master/sample-codes/bankverification/README.md>
+   [l5]: <https://github.com/jimiejosh/monnify-php-sample-codes/tree/master/sample-codes/transfer/README.md>
+   [l6]: <https://github.com/jimiejosh/monnify-php-sample-codes/tree/master/sample-codes/card/README.md>
