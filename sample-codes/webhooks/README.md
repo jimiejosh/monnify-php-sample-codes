@@ -1,6 +1,6 @@
 # Monnify Webhooks  ✨
  
-This repository contains sample codes on how you can implement  [Monnify](https://monnify.com/) Webhooks in PHP. We have ade this example below as simple as possible to show you the steps necesary to implement webhook.
+This repository contains sample codes on how you can implement  [Monnify](https://monnify.com/) Webhooks in PHP. We have made this example below as simple as possible to show you the steps necesary to implement webhook.
 
 > NOTE:
 > *Please note that this is just for demonstration purposes and not production code.*
