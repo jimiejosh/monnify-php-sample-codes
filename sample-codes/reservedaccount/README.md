@@ -23,7 +23,7 @@ If you want to reserve accounts for only preferred partner banks for your custom
 
 $access_token = "<access_token>"; // add you access token here
 
-$postData = array(     
+$postData = json_encode(array(     
       "accountReference" => "mN84t584ffgg75t84758478754", // unique reference
            "accountName" => "Damilare Ogunnaike",
           "currencyCode" => "NGN",
@@ -32,7 +32,7 @@ $postData = array(
                    "bvn" => "2233445566778899",
           "customerName" => "Damilare Ogunnaike",
   "getAllAvailableBanks" => true
-);
+));
 
 $handler = curl_init();
 $headers[] = 'Authorization: bearer '.$access_token;
@@ -40,7 +40,7 @@ $headers[] = 'Content-Type: application/json';
 
 
 curl_setopt($handler, CURLOPT_URL, "https://sandbox.monnify.com/api/v2/bank-transfer/reserved-accounts");
-curl_setopt($handler, CURLOPT_POSTFIELDS, http_build_query($postData));
+curl_setopt($handler, CURLOPT_POSTFIELDS, $postData);
 curl_setopt($handler, CURLOPT_HTTPHEADER,$headers);
 curl_setopt($handler, CURLOPT_POST, true);
 
