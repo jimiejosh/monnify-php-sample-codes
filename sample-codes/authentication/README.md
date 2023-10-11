@@ -47,7 +47,7 @@ $json = json_decode($output, true);
 $accessToken = $json['responseBody']['accessToken'];
 
 // this is your access token
-echo $accessToken;;
+echo $accessToken;
 
 // Further processing ...
 if ($server_output == "OK") { ... } else { ... }
